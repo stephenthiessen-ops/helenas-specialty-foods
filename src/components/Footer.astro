@@ -1,0 +1,4 @@
+---
+import {site} from '../data/site.js';
+---
+<footer class="footer"><div class="wrap footer-grid"><div><div class="footer-brand">HELENA'S</div><div class="eyebrow footer-sub">SPECIALTY PIEROGIES</div><p>From our family kitchen to your table. Handmade traditions, shared with love since 1995.</p></div><div><h3>Explore</h3><a href="/menu/">Our Menu</a><a href="/story/">Our Story</a><a href="/press/">In the News</a><a href="/faq/">Frequently Asked Questions</a></div><div><h3>Come See Us</h3><p>{site.address}</p><p>{site.hours}</p><a href={site.mapUrl} target="_blank" rel="noopener noreferrer">Get Directions ↗</a></div><div><h3>Let's Talk</h3><p>Orders are placed by phone or in person.</p><a href={`tel:${site.phoneHref}`} class="footer-phone">{site.phone}</a></div></div><div class="wrap footer-bottom"><span>© {new Date().getFullYear()} Helena's Specialty Pierogies. All rights reserved.</span><span>Crafted with care in Kerhonkson, New York.</span></div></footer>

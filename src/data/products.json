@@ -1,0 +1,205 @@
+[
+  {
+    "id": "potato-onion",
+    "name": "Potato & Onion",
+    "price": 12.75,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-cheddar-cheese",
+    "name": "Potato & Cheddar Cheese",
+    "price": 13,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-jalapeno-peppers",
+    "name": "Potato & Jalapeno Peppers",
+    "price": 13,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-horseradish",
+    "name": "Potato & Horseradish",
+    "price": 13,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-sauteed-garlic",
+    "name": "Potato & Sauteed Garlic",
+    "price": 13.25,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-spinach-with-garlic",
+    "name": "Potato & Spinach with Garlic",
+    "price": 14.25,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-broccoli",
+    "name": "Potato & Broccoli",
+    "price": 13.5,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-farmers-cheese",
+    "name": "Potato & Farmers Cheese",
+    "price": 14,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-cheddar-jalapeno",
+    "name": "Potato, Cheddar & Jalapeno",
+    "price": 14,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-cheddar-jalapeno-onion",
+    "name": "Potato, Cheddar Jalapeno & Onion",
+    "price": 14.25,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-broccoli-cheddar",
+    "name": "Potato, Broccoli & Cheddar",
+    "price": 14.25,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-sauerkraut",
+    "name": "Potato & Sauerkraut",
+    "price": 14.5,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-scallions,-onion-bacon",
+    "name": "Potato, Scallions, Onion & Bacon",
+    "price": 14.75,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-cheddar-cheese-bacon",
+    "name": "Potato, Cheddar Cheese & Bacon",
+    "price": 14.75,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-bacon-ranch",
+    "name": "Potato & Bacon Ranch",
+    "price": 14.75,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-jalapeno,-cheddar-bacon",
+    "name": "Potato, Jalapeno, Cheddar & Bacon",
+    "price": 15.25,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato-and-buffalo-chicken",
+    "name": "Potato and Buffalo Chicken",
+    "price": 15.25,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-sauerkraut-bacon",
+    "name": "Potato, Sauerkraut & Bacon",
+    "price": 15.75,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-chicken-bacon-ranch",
+    "name": "Potato, Chicken Bacon Ranch",
+    "price": 15.75,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "potato,-sauerkraut-kielbasa",
+    "name": "Potato, Sauerkraut & Kielbasa",
+    "price": 17,
+    "category": "Traditional",
+    "unit": "dozen"
+  },
+  {
+    "id": "blueberry",
+    "name": "Blueberry",
+    "price": 14,
+    "category": "Seasonal",
+    "unit": "dozen"
+  },
+  {
+    "id": "prune-plum",
+    "name": "Prune Plum",
+    "price": 14,
+    "category": "Seasonal",
+    "unit": "dozen"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "price": 14,
+    "category": "Seasonal",
+    "unit": "dozen"
+  },
+  {
+    "id": "kielbasa-smoked",
+    "name": "Kielbasa (Smoked)",
+    "price": 12.5,
+    "category": "Meats",
+    "unit": "lb"
+  },
+  {
+    "id": "fresh-raw-kielbasa",
+    "name": "Fresh (Raw) Kielbasa",
+    "price": 11,
+    "category": "Meats",
+    "unit": "lb"
+  },
+  {
+    "id": "garlic-kielbasa",
+    "name": "Garlic Kielbasa",
+    "price": 12.25,
+    "category": "Meats",
+    "unit": "lb"
+  },
+  {
+    "id": "krakowska",
+    "name": "Krakowska",
+    "price": 12,
+    "category": "Meats",
+    "unit": "lb"
+  },
+  {
+    "id": "kobanosy",
+    "name": "Kobanosy",
+    "price": 12.25,
+    "category": "Meats",
+    "unit": "lb"
+  },
+  {
+    "id": "spicy-kobanosy",
+    "name": "Spicy Kobanosy",
+    "price": 12.5,
+    "category": "Meats",
+    "unit": "lb"
+  }
+]

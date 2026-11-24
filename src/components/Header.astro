@@ -1,0 +1,17 @@
+---
+const path = Astro.url.pathname;
+const links = [{href:'/',label:'Home'},{href:'/menu/',label:'Our Menu'},{href:'/story/',label:'Our Story'},{href:'/press/',label:'In the News'},{href:'/visit/',label:'Visit Us'}];
+---
+<header class="site-header" id="top">
+ <div class="notice-bar"><span>Handmade with heart in the Hudson Valley since 1995</span><span class="notice-extra">Open Thursday–Sunday · 12–5 PM</span></div>
+ <div class="header-main wrap">
+  <a class="brand" href="/" aria-label="Helena's home"><span class="brand-ornament" aria-hidden="true">✳</span><span class="brand-name">HELENA'S <small>SPECIALTY PIEROGIES</small></span></a>
+  <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  <nav id="nav" class="main-nav" aria-label="Primary navigation">{links.map(link=><a class:list={['nav-link',{'active': path===link.href}]} href={link.href}>{link.label}</a>)}<a class="button button-small" href="tel:+18456262958">Call to Order <span aria-hidden="true">↗</span></a></nav>
+ </div>
+</header>
+<script>
+ const button = document.querySelector('.menu-toggle'); const nav = document.querySelector('.main-nav');
+ button?.addEventListener('click',()=>{const expanded=button.getAttribute('aria-expanded')==='true'; button.setAttribute('aria-expanded',String(!expanded)); nav?.classList.toggle('open',!expanded);});
+ nav?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');button?.setAttribute('aria-expanded','false');}));
+</script>

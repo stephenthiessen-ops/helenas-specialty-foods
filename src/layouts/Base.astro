@@ -1,0 +1,9 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles.css';
+const {title='Handmade Pierogies in the Hudson Valley',description='Handmade Polish and Ukrainian pierogies and authentic Polish meats in Kerhonkson, New York. Visit Helena’s Specialty Pierogies.'}=Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
+const structured = {'@context':'https://schema.org','@type':'FoodEstablishment',name:"Helena's Specialty Pierogies",url:'https://www.helenaspecialtyfoods.com/',telephone:'+1-845-626-2958',address:{'@type':'PostalAddress',streetAddress:'5754 Route 209',addressLocality:'Kerhonkson',addressRegion:'NY',postalCode:'12446',addressCountry:'US'},openingHoursSpecification:[{ '@type':'OpeningHoursSpecification', dayOfWeek:['Thursday','Friday','Saturday','Sunday'],opens:'12:00',closes:'17:00'}]};
+---
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#244537"/><title>{title} | Helena's Specialty Pierogies</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/><meta property="og:type" content="website"/><meta property="og:title" content={`${title} | Helena's Specialty Pierogies`}/><meta property="og:description" content={description}/><meta property="og:image" content="https://www.helenaspecialtyfoods.com/images/pierogi-hero.webp"/><script type="application/ld+json" set:html={JSON.stringify(structured)}/></head><body><a class="skip-link" href="#content">Skip to content</a><Header/><main id="content"><slot/></main><Footer/></body></html>
