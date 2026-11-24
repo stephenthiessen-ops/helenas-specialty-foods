@@ -35,7 +35,7 @@
   var empty = document.getElementById('no-results');
   var status = document.getElementById('menu-status');
   var filter = 'all';
-  var norm = function (s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/['’]/g, '').toLowerCase(); };
+  var norm = function (s) { s = s.normalize('NFD'); var out = ''; for (var i = 0; i < s.length; i++) { var c = s.charCodeAt(i); if (c < 768 || c > 879) out += s[i]; } return out.replace(/['’]/g, '').toLowerCase(); };
   document.querySelectorAll('.item').forEach(function (item) { item.dataset.name = norm(item.textContent); });
 
   function update() {
