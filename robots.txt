@@ -1,0 +1,33 @@
+# Helena's Specialty Pierogies — everyone is welcome to read this site,
+# including search engines and AI assistants (ChatGPT, Claude, Perplexity, Gemini, Copilot).
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.helenaspecialtyfoods.com/sitemap.xml
